@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:200,400,600&display=swap');
+
+.attribution { font-size: 11px; text-align: center; 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.table{
+
+
+}
+
+
+
+.leftside{
+    margin-bottom: -300;
+}
+
+.rightside{
+    
+
+}
+.logo{
+    margin: 1px 0;
+    width: 150px;
+    padding: 120px; 
+    margin-top: -70px;
+}
+.heading{
+    margin: 120px;
+    text-transform: uppercase;
+    line-height: 1.1;
+    letter-spacing: 15px;
+    font-size: 70px;
+    position: relative;
+    top: -120px;
+  
+    color: hsl(0, 6%, 24%)
+    
+}
+.span{
+    color:  hsl(0, 36%, 70%);
+   font-weight: 100;
+}
+.text{
+   color: hsl(0, 36%, 70%);
+   margin: 120px;
+   width: 60%;
+   margin-top: -220px;
+   line-height: 26px;
+
+}
+ #form{
+   
+     position: relative;
+ }
+
+ .form-error{
+
+ }
+
+ .form-error input{
+     border: 2px solid hsl(0, 93%, 68%) ;
+
+ }
+ 
+
+ input{
+     border-radius: 50px;
+     padding: 15px 60px;
+     width: 40%;
+     font-size: 16px;
+     border:  1px solid  hsl(0, 36%, 70%);
+     margin: 320px;
+    margin-top:-100% ;
+    top: -70px;
+    right: 200px;
+    position: relative; 
+ }
+
+ input:focus{
+     outline: none;
+     box-shadow: 0px 0px 10px hsla(0,36,70%,0.5);
+ }
+
+ input::placeholder{
+    color:  hsl(0, 36%, 70%);
+
+ }
+
+ .error-icon{
+     position: absolute;
+     top: -75px;
+     right: 320px;
+     display: none;
+  
+ }
+
+ .form-error .error-icon{
+    display: block;
+}
+
+
+
+ button{
+     background-image: linear-gradient(135deg,  hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+     padding: 14px;
+     border-radius: 50px;
+     border: none;
+     width: 100px;
+     top: -88px;
+   right: 214px;
+   position: absolute;
+   cursor: pointer;
+   
+ }
+
+ button:hover{
+   
+    opacity: 0.6;
+ }
+ .small{
+   
+    position: absolute;
+    top: -28px;
+    right: 390px;
+   color:  hsl(0, 93%, 68%);
+   display: none;
+   
+
+ }
+
+ .form-error small{
+    display: block;
+}
+
+ 
+.rightimage{
+   margin-top: -200px;
+  
+     
+}
